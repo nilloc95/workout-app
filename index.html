@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="top" class="container">
+        <h1>Workout App</h1>
+        <h2> Enter New Workout Plan:</h2>
+        <div class="form-container">
+            <form id="newWorkout" action="/" method="POST">
+                <label class="label" for="name"> Enter Workout Name:
+                    <input class="input" type="text" name="name" id="name" required>
+                </label>
+    
+                <label class="label" for="reps">Number of Reps:
+                    <input class="input" type="number" name="reps" id="reps" >
+                </label>
+    
+                <label class="label" for="weight">Weight:
+                    <input class="input" type="number" name="weight" id="weight">
+                </label>
+    
+                <label class="label" for="date">Date:
+                    <input class="input" type="date" name="date" id="date" >
+                </label>
+    
+                <label class="" for="units">Units:
+                    <input class="" type="radio" name="units" value="lbs" checked="checked">
+                    <label for="lbs">lbs</label>
+                    <input class="" type="radio" name="units" value="kg">
+                    <label for="kg">kg</label>
+                </label>
+                <br><br>
+                <button type="submit" class="btn-primary">Add Workout</button>
+    
+                <br><br>
+            </form>
+        </div>
+        
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Exercise Name</th>
+                    <th>Reps</th>
+                    <th>Weight</th>
+                    <th>Date</th>
+                    <th>Unit</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+            
+        </table>
+
+    </div>
+    
+
+    <script src="/frontEnd.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#table {
+  border: 1px solid #ddd;
+  width: 75%;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+
+td,
+th {
+  padding: 12px;
+  text-align: start;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+th {
+  border-bottom: #ddd 1px solid;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 95%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.input-small {
+  width: 80%;
+}
+
+.fa-check-circle {
+  cursor: pointer;
+  color: green;
+}
+
+.fa-check-circle:hover {
+  color: rgb(9, 80, 9);
+}
+
+.font-awesome-2x {
+  display: block;
+  float: right;
+  margin-right: 0;
+  font-size: 1.2rem;
+}
+
+.fa-trash-alt,
+.fa-edit {
+  margin-left: 4px;
+  float: right;
+  cursor: pointer;
+}
+
+.btn-none {
+  border: none;
+  background: transparent;
+}
+
+.fa-trash-alt:hover {
+  color: rgb(190, 27, 27);
+}
+
+.fa-edit {
+  margin-left: 15px;
+}
+
+.fa-edit:hover {
+  color: rgb(65, 156, 216);
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 5px;
+  background-color: rgb(87, 202, 240);
+  cursor: pointer;
+}
+
+.btn-secondary {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 5px;
+  background-color: rgb(49, 190, 61);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(122, 206, 235);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
